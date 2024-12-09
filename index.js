@@ -68,5 +68,5 @@ form.addEventListener('submit', (e) => {
 // Function to clear the entire list
 document.querySelector('.clear-list').addEventListener('click', () => {
   shoppingList = [];
-  displayItems(); // Clear the UI
+  displayItems(); 
 });
